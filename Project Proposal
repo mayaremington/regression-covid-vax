@@ -1,0 +1,38 @@
+Question/need:
+- What is the framing question of your analysis, or the purpose of the model/system you plan to build?
+	- As of late July 2021, COVID-19 cases are again on the rise in the United States. This wave, fueled by the highly contagious delta variant, is primarily affecting the unvaccinated. At this point, despite widespread availability of the vaccine in the US, more than 30% of adults remain unvaccinated. This number varies considerably from one county to the next. The goal of this project is to determine which political and socioeconomic factors best explain the variation in vaccination rates at the county level. 
+- Who benefits from exploring this question or building this model/system?
+	- Understanding the factors associated with low vaccination rates is crucial for government and public health officials at all levels (local, state, federal), as well as community leaders (who may be in a position to counsel unvaccinated individuals), and even business leaders (who may choose to mandate that employees take the vaccine, or at least offer time off to take the vaccine).
+
+Data Description:
+- What dataset(s) do you plan to use, and how will you obtain the data?
+	- The primary data will be COVID-19 vaccination rates by US county, obtained by web scraping the Centers for Disease Control & Prevention (CDC) website. 
+		-Since there are more than 3000 counties in the US, this will generate 3000+ rows of data
+			https://covid.cdc.gov/covid-data-tracker/#vaccinations-county-view
+	- Outcomes of the 2020 presidential election by county will be obtained via csv download from GitHub user Tony McGovern
+		- Specifically, will use % difference between GOP and Dem vote counts (i.e. %vote for Trump - %vote for Biden), commonly referred to as the “vote split”
+ 			https://github.com/tonmcg/US_County_Level_Election_Results_08-20
+	- Additional county-level data will be obtained via csv download from OpenIntro
+		- %race/ethnicity (white/black/native/asian/pac_isl/hispanic)
+		- %population over 65
+		- Education level(% high school graduate,% bachelor degree)
+		- %population below poverty level
+		- Median household income
+		- %uninsured
+		- %household has smartphone, %household has computer, %household has broadband
+				https://www.openintro.org/data/?data=county_complete
+	- Bonus: dominant religion in the county (if I can find this data!)
+	- Datasets will be joined on the FIPS county code, which is unique for each US county
+- What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
+	- An individual unit of analysis will be a US county along with it’s target (% unvaccinated adults) and associated features (%vote split in 2020, %race/ethnicity, median household income, etc)
+- If modeling, what will you predict as your target? 
+	- The target will be the % of unvaccinated adults by county. % unvaccinated adults = 1 - % of adults who have received at least 1 shot)
+
+Tools:
+- How do you intend to meet the tools requirement of the project?
+	- CDC data will be obtained through web scraping with selenium and beautiful soup. 
+- Are you planning in advance to need or use additional tools beyond those required? No
+
+MVP Goal:
+- What would a minimum viable product (MVP) look like for this project?
+	- A scatterplot of % 2020 vote split versus % unvaccinated adults, fit with a line (obtained via linear regression)
