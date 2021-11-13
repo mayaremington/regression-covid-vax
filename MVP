@@ -1,6 +1,0 @@
-The goal of this project is to determine which political and socioeconomic factors best explain the variation in COVID-10 vaccination rates at the county level.
-  
-The scatterplot depicts the relationship between the target (% unvaccinated by US county) and the most highly correlated feature (% difference between %GOP vote and %Dem vote ).  
-I performed linear regression with a single feature to generate the line. But obviously something went wrong in that process because the line is off! (Still figuring that out.).  
-
-Next, I plan to incorporate cross-validation. Then, I'll apply feature engineering and regularization
