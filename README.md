@@ -4,4 +4,4 @@ Modeled county-level COVID-19 vaccination rates using linear regression (OLS, in
 Used regression coefficients to determine which political and socioeconomic factors best explain the variations in COVID-19 vaccination rates
 Obtained data by web scraping the CDC website with Selenium and BeautifulSoup
 
-<img width="633" alt="image" src="https://user-images.githubusercontent.com/79233614/141606457-1f789abf-1cfb-4bd1-bd9d-796fadec7e48.png">
+<img width="1072" alt="Screen Shot 2021-11-13 at 2 03 30 PM" src="https://user-images.githubusercontent.com/79233614/141660329-2c5c562f-e5a5-4eb4-be53-dd855b65bb59.png">
