@@ -4,7 +4,8 @@
 - Used regression coefficients to determine which political and socioeconomic factors best explain the variations in COVID-19 vaccination rates  
 - Obtained data by web scraping the CDC website with Selenium and BeautifulSoup
 
-<img width="1072" alt="Screen Shot 2021-11-13 at 2 03 30 PM" src="https://user-images.githubusercontent.com/79233614/141660329-2c5c562f-e5a5-4eb4-be53-dd855b65bb59.png">
+<img width="782" alt="image" src="https://user-images.githubusercontent.com/79233614/141693388-75eb913c-f392-48e4-8a55-b2dae46c61d7.png">
+
 
 **Jupyter notebooks:**  
 [1) Webscraping](1_covid_vax_webscraping.ipynb)  
