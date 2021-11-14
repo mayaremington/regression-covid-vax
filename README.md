@@ -1,8 +1,9 @@
-## The great divide: factors associated with low COVID vaccination rates in the US 
+## The Great Divide: Factors associated with low COVID-19 vaccination rates in the US 
 
 - Modeled county-level COVID-19 vaccination rates using linear regression (OLS, interaction & polynomial terms, regularization with Lasso & Ridge)  
-- Used regression coefficients to determine which political and socioeconomic factors best explain the variations in COVID-19 vaccination rates  
 - Obtained data by web scraping the CDC website with Selenium and BeautifulSoup
+- Used regression coefficients to determine which political and socioeconomic factors have the greatest effect on COVID-19 vaccination rates at the county level
+  - As demonstrated below, the feature with the greatest effect is the % vote split in the 2020 presidential election (% vote for GOP candidate - % vote for Democratic candidate), indicating that red counties have lower vaccination rates than blue counties
 
 <img width="783" alt="image" src="https://user-images.githubusercontent.com/79233614/141700055-f602ac76-6e8b-4c99-a7bb-fbf1cec2c1fe.png">
 
