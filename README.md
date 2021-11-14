@@ -12,4 +12,4 @@
 [3) Modeling](3_covid_vax_regression.ipynb)  
 
 **Other links:**  
-[Presentation slides](covid_vax_regression.pdf)
+[Presentation slides](covid-vax-regression.pdf)
