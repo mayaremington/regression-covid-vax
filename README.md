@@ -13,4 +13,4 @@
 [3) Modeling](3_covid_vax_regression.ipynb)  
 
 **Other links:**  
-[Presentation slides](covid_vax_regression.pdf)
+[Presentation slides](https://github.com/mayaremington/regression-covid-vax/blob/main/%20covid_vax_regression.pdf)
