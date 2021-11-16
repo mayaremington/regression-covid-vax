@@ -7,10 +7,10 @@
 
 <img width="783" alt="image" src="https://user-images.githubusercontent.com/79233614/141700055-f602ac76-6e8b-4c99-a7bb-fbf1cec2c1fe.png">
 
+For additional figures, check out this project's [presentation slides](https://github.com/mayaremington/regression-covid-vax/blob/main/%20covid_vax_regression.pdf)!
+
 **Jupyter notebooks:**  
 [1) Webscraping](1_covid_vax_webscraping.ipynb)  
 [2) Cleaning](2_covid_vax_cleaning.ipynb)  
 [3) Modeling](3_covid_vax_regression.ipynb)  
 
-**Other links:**  
-[Presentation slides](https://github.com/mayaremington/regression-covid-vax/blob/main/%20covid_vax_regression.pdf)
